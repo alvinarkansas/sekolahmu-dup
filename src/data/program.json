@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "SMP Kelas 9 Bahasa Inggris - Dinas Pendidikan DKI",
+        "author": "Dinas Pendidikan",
+        "description": null,
+        "free": true,
+        "thumbnail": "https://kit8.net/images/thumbnails/580/386/detailed/4/unpacking_the_parcel_preview@2x.png"
+    },
+    {
+        "id": 2,
+        "title": "Matematika SMP Kelas VIII - Dinas Pendidikan DKI",
+        "author": "Dinas Pendidikan",
+        "description": null,
+        "free": true,
+        "thumbnail": "https://kit8.net/images/thumbnails/580/386/detailed/4/dna_research@2x.png"
+    },
+    {
+        "id": 3,
+        "title": "Geografi XI SMA IPS - Dinas Pendidikan DKI",
+        "author": "Dinas Pendidikan",
+        "description": null,
+        "free": true,
+        "thumbnail":"https://image.freepik.com/free-vector/female-scientist-illustration_23-2148416954.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Pendidikan Agama Kristen dan Budi Pekerti Kelas VIII SMP - Dinas Pendidikan DKI",
+        "author": "Dinas Pendidikan",
+        "description": "Halo, Kawan Murid. Selamat datang di program pembelajaran Agama Kristen dan Budi Pekerti secara daring untuk Kelas VIII SMP. Yuk, bersama-sama kita belajar mengenal dan bertumbuh dalam Tuhan.",
+        "free": true,
+        "thumbnail": "https://i.pinimg.com/originals/bb/f2/3f/bbf23f1980f3c48f53daf094a1f45824.png"
+    },
+    {
+        "id": 5,
+        "title": "Bahasa Inggris SMA/K Kelas X - Dinas Pendidikan DKI",
+        "author": "Dinas Pendidikan",
+        "description": "Halo Kawan Murid. Selamat datang di program pembelajaran secara daring, Bahasa Inggris SMA/K Kelas X. Mari kita lakukan pembelajaran yang menyenangkan di rumah.",
+        "free": true,
+        "thumbnail": "https://lh3.googleusercontent.com/proxy/R8w-ihv5gGhlxoI9yzDx6zxzeq7Rf14hAsGICp2RbvmJNsO-V22FyksbAqisicZGSYUYSOy7rh2LEmIifk2yj3tE6TrI2BiBAW-CG_380YgRPcreqiVU8w"
+    },
+    {
+        "id": 6,
+        "title": "IPS Kelas VIII- Dinas Pendidikan DKI",
+        "author": "Chaerunnisa",
+        "description": "Belajar IPS seru Disusun Oleh: Penulis : Chaerunnisa-SMPN48 Penyelaras: Ibnu Chaldun-SMPN96 Koordinator : Brotoyudo-SMPN161 dan Dinas Pendidikan DKI",
+        "free": true,
+        "thumbnail": "https://cdn.dribbble.com/users/1731254/screenshots/10842218/media/016e270a461152a827e6bc3801f31650.png"
+    }
+]

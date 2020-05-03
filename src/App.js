@@ -1,58 +1,17 @@
 import React from 'react';
 import './App.scss';
-import illust from './illust.png';
+import illust from './assets/illust.png';
 import CountUp from 'react-countup';
-import { FaHome, FaBuilding, FaSchool, FaPlayCircle, FaUserGraduate, FaPeopleCarry } from 'react-icons/fa';
-import { GoBook } from 'react-icons/go';
-import { AiOutlineShopping, AiOutlineHeart, AiOutlineUser, AiOutlineSearch } from 'react-icons/ai';
+import { FaHome, FaBuilding, FaSchool, FaPlayCircle } from 'react-icons/fa';
 import VisibilitySensor from 'react-visibility-sensor';
+import Nav from './components/Nav';
+import Program from './components/Program';
+import programs from './data/program.json';
 
 function App() {
   return (
     <div className="scrollable-page">
-      <nav>
-        <div className="logo">
-          <p>logo</p>
-        </div>
-        <div className="menu">
-          <div className="menu-btn">
-            <div className="circle gold">
-              <FaHome />
-            </div>
-            <p>Beranda</p>
-          </div>
-          <div className="menu-btn">
-            <div className="circle orange">
-              <FaSchool />
-            </div>
-            <p>Tentang</p>
-          </div>
-          <div className="menu-btn">
-            <div className="circle reddish">
-              <FaPeopleCarry />
-            </div>
-            <p>Prakerja</p>
-          </div>
-          <div className="menu-btn">
-            <div className="circle teal">
-              <FaUserGraduate />
-            </div>
-            <p>Ikut Program</p>
-          </div>
-          <div className="menu-btn">
-            <div className="circle blue">
-              <GoBook />
-            </div>
-            <p>Belajar Live!</p>
-          </div>
-        </div>
-        <div className="nav-btns">
-          <AiOutlineShopping size="1.5rem"/>
-          <AiOutlineHeart size="1.5rem"/>
-          <AiOutlineSearch size="1.5rem"/>
-          <AiOutlineUser size="1.5rem"/>
-        </div>
-      </nav>
+      <Nav />
       <main>
         <div className="background"></div>
         <div className="headline">
@@ -71,7 +30,7 @@ function App() {
         </div>
 
         <div className="content">
-
+          {programs.map(program => <Program key={program.id} program={program}/>)}
         </div>
 
         <div className="stats">
