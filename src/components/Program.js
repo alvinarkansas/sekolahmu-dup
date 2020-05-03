@@ -1,11 +1,13 @@
 import React from 'react'
 import placeholder from '../assets/comingsoon-square.png'
+import { animated } from 'react-spring';
+import VisibilitySensor from 'react-visibility-sensor';
 
-export default function Program({ program }) {
+export default function Program({ program, fadeIn }) {
   return (
-    <div className="program">
+    <animated.div style={fadeIn} className="program">
       <div className="program-img-wrapper">
-        {program.thumbnail ? <img src={program.thumbnail} alt="program-img" /> : <img src={placeholder} alt="program-img"/> }
+        {program.thumbnail ? <img src={program.thumbnail} alt="program-img" /> : <img src={placeholder} alt="program-img" />}
       </div>
       {program.description
         ?
@@ -31,6 +33,6 @@ export default function Program({ program }) {
           </>
         </div>
       }
-    </div>
+    </animated.div>
   )
 }
